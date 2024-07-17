@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+Body {
+    font-family: "Mulish", sans-serif;
+}
+
+/* Share Style */
+* {
+    margin: 0;
+}
+
+body {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.text-primary-h3 {
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(19, 19, 24);
+}
+
+.text-primary-p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.text-primary-color {
+    color: rgb(255, 84, 0);
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 200;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+}
+
+/* Header Styles */
+.nav-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav-link>li {
+    list-style-type: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(66, 66, 71);
+}
+
+/* Banner Style */
+
+.banner-container {
+    width: 1170px;
+    height: 500px;
+    background-image: linear-gradient(180deg,
+            rgba(19, 19, 24, 0.8),
+            rgba(19, 19, 24, 0) 100%),
+        url(../images/background-picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.banner-details {
+    width: 800px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.banner-details h1 {
+    font-size: 64px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+.travel-input {
+
+    width: 800px;
+    height: 84px;
+    margin: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+.travel-input input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.travel-input select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 16px;
+    font-weight: 200;
+}
